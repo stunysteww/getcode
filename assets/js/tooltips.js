@@ -1,0 +1,1 @@
+document.getElementById(facebook).addEventListener("click",window.open("https://instagram.com"));
