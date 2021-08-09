@@ -1,5 +1,14 @@
 <html lang="en">
   <head>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "fa1b6865-71db-417a-a08b-13219c743b58",
+        });
+      });
+    </script>
     <meta charset="utf-8">
     <title>Practice your skills</title>
     <meta name="description" content="The HTML5 Herald">
@@ -55,8 +64,8 @@
         .top-score-value {
             font-size: 72px;
             color: white;
-            font-family: 'Syncopate', sans-serif;
-                        font-weight: 800;
+            font-family: 'Raleway';
+            font-weight: 800;
             margin: 0;
         }
 
